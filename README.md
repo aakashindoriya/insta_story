@@ -18,5 +18,6 @@ A simple Instagram-like stories application built with the MERN stack and Chakra
 - **Database**: MongoDB
 - **HTTP Client**: Axios
 
+## Live Demo
 
-   
+Check out the live application [here](https://frontend-5qjn6yp2m-aakashindoriyas-projects.vercel.app/).
