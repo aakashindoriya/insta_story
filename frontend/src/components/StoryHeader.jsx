@@ -8,9 +8,9 @@ const StoryHeader = ({ stories, currentStory, onSelectStory }) => {
         <Avatar
           key={index}
           name={story.user}
-          size="lg"
+          size="xl"
           cursor="pointer"
-          border={index === currentStory ? "2px solid white" : "2px solid transparent"}
+          border={index === currentStory ? "3px solid blue" : "3px solid transparent"}
           onClick={() => onSelectStory(index)}
         />
       ))}

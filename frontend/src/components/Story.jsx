@@ -26,8 +26,12 @@ const Stories = () => {
         if (currentImage + 1 < currentImages.length) {
           setCurrentImage(currentImage + 1);
         } else {
-          setCurrentStory((prevStory) => (prevStory + 1) % stories.length);
+          if(currentStory==stories.length-1){
+            setCurrentStory(null)
+          }else{
+            setCurrentStory((prevStory) => (prevStory + 1) % stories.length);
           setCurrentImage(0);
+          }
         }
         setProgress(0);
       }, 5000);
