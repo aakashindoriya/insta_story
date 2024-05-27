@@ -21,3 +21,40 @@ A simple Instagram-like stories application built with the MERN stack and Chakra
 ## Live Demo
 
 Check out the live application [here](https://frontend-ofv93sxaj-aakashindoriyas-projects.vercel.app/).
+
+
+
+![gif-20240527-195312](https://github.com/aakashindoriya/insta_story/assets/37771235/a96418be-a5c9-4d24-8c70-a7f785d85677)
+
+## Project Setup
+
+### Backend
+
+1. Navigate to the `backend` directory:
+   ```bash
+   cd backend
+   ```
+2. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the backend server:
+   ```bash
+   npm start
+   ```
+
+### Frontend
+
+1. Navigate to the `frontend` directory:
+   ```bash
+   cd frontend
+   ```
+2. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the frontend development server:
+   ```bash
+   npm start
+   ```
+
