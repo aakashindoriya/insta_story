@@ -20,6 +20,7 @@ const StoryContent = ({ stories, currentStory, currentImage, onNext, onPrev, pro
     >
       {stories.length>0 ? (
         <>
+        <ProgressBar progress={progress} />
           <Image
             src={stories[currentStory]?.img[currentImage]}
             maxW="90%"
@@ -28,7 +29,6 @@ const StoryContent = ({ stories, currentStory, currentImage, onNext, onPrev, pro
             borderRadius="md"
             boxShadow="lg"
           />
-          <ProgressBar progress={progress} />
         </>
       ) : (
         <Text fontSize="2xl" color="white">Stories</Text>

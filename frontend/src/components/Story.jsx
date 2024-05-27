@@ -11,7 +11,7 @@ const Stories = () => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/stories')
+    axios.get('https://backend-7z0itjnea-aakashindoriyas-projects.vercel.app/stories')
       .then(response => {
         setStories(response.data);
       })

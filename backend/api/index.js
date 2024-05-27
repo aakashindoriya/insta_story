@@ -1,11 +1,15 @@
-require("dotenv").config()
+// require("dotenv").config()
 const express = require('express');
 const cors = require('cors');
 // const connect=require("./utils/dbConnect")
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
-app.use(cors());
+
+app.use(cors({
+  origin: 'https://frontend-5qjn6yp2m-aakashindoriyas-projects.vercel.app', // Replace with your React app's domain
+  
+}));
 const story=[
   {user:"aakash",img:["https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=600","https://images.pexels.com/photos/1547813/pexels-photo-1547813.jpeg?auto=compress&cs=tinysrgb&w=600","https://images.pexels.com/photos/1820563/pexels-photo-1820563.jpeg?auto=compress&cs=tinysrgb&w=600"]},
   {user:"mohit",img:["https://images.pexels.com/photos/1028225/pexels-photo-1028225.jpeg?auto=compress&cs=tinysrgb&w=600","https://images.pexels.com/photos/772803/pexels-photo-772803.jpeg?auto=compress&cs=tinysrgb&w=600"]},
