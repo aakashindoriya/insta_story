@@ -20,4 +20,4 @@ A simple Instagram-like stories application built with the MERN stack and Chakra
 
 ## Live Demo
 
-Check out the live application [here](https://frontend-lznzfpb19-aakashindoriyas-projects.vercel.app/).
+Check out the live application [here](https://frontend-ofv93sxaj-aakashindoriyas-projects.vercel.app/).
